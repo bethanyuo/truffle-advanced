@@ -1,0 +1,104 @@
+{
+  "contractName": "Funding",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/Beth/Testing/contracts/Funding.sol\":\"Funding\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/Beth/Testing/contracts/Funding.sol\":{\"keccak256\":\"0x9456efc1adf9012f13e05304b1363473753cc5db13fa710e587776541d230343\",\"urls\":[\"bzzr://6d1dc01ef944c8a779ad2f3f43513ea27eb2356d91738f4b0e63ce4b1ba4778d\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a723058208414428edae6d5da80eee7306e470bb1eca5b0351c86551d29c849aa297cef240029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a723058208414428edae6d5da80eee7306e470bb1eca5b0351c86551d29c849aa297cef240029",
+  "sourceMap": "25:21:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:21:0;;;;;;;",
+  "deployedSourceMap": "25:21:0:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\n\ncontract Funding {\n\n}\n",
+  "sourcePath": "/Users/Beth/Testing/contracts/Funding.sol",
+  "ast": {
+    "absolutePath": "/Users/Beth/Testing/contracts/Funding.sol",
+    "exportedSymbols": {
+      "Funding": [
+        2
+      ]
+    },
+    "id": 3,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "Funding",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "25:21:0"
+      }
+    ],
+    "src": "0:47:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/Beth/Testing/contracts/Funding.sol",
+    "exportedSymbols": {
+      "Funding": [
+        2
+      ]
+    },
+    "id": 3,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "Funding",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "25:21:0"
+      }
+    ],
+    "src": "0:47:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.8+commit.23d335f2.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.11",
+  "updatedAt": "2020-04-19T07:31:48.834Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
