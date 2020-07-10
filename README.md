@@ -1,6 +1,6 @@
 # More Solidity Specific Unit Tests with Truffle
 Extend the Funding contract and start using some more Solidity-specific unit testing technique. In this exercise, you’ll learn how to:
-*	Time travel: Manipulating block.timestamp.
+*	Time travel: Manipulating `block.timestamp`.
 *	Understand and use more unit-testing techniques.
 *	Learn the difference between Solidity Testing and JavaScript Testing.
 
@@ -90,7 +90,7 @@ Let’s first write a test to check if a donator can withdraw his funds after fu
 However, one should not be able to withdraw his funds after the duration is over if the goal is reached.
  
 Finally, let’s check that the owner can only withdraw his funds after the duration is over and the goal is reached.
- 
+
 Implementing the refund function in Solidity can be tricky. Our intuition may tell us to loop through our donators and transfer them their funds. Problem with this solution is that the more donators we have the more gas to pay and it is not only looping but also making multiple transactions. We would like to keep the cost of running a function low and predictable. Let’s just allow each user to withdraw their donation.
  
 We would like to save the amount to transfer first and then zero the balance. It is an implementation of the withdrawal pattern. Transferring an amount straight from the balances mapping introduces a security risk of re-entrancy — calling back multiple refunds.
