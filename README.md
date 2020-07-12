@@ -1,4 +1,4 @@
-# More Solidity Specific Unit Tests with Truffle
+# More Solidity-specific Unit Tests with Truffle
 Extend the Funding contract and start using some more Solidity-specific unit testing technique. In this exercise, you’ll learn how to:
 *	Time travel: Manipulating `block.timestamp`.
 *	Understand and use more unit-testing techniques.
